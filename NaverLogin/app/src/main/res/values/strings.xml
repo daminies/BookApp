@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">NaverLogin</string>
-
-    <string name="naver_client_id">JgvMJSrseSiwzY1l1Js2</string>
-    <string name="naver_client_secret">AAZNR8ajHW</string>
-    <string name="naver_client_name">북마크</string>
-</resources>
