@@ -1,10 +1,11 @@
 # 다락방 
 
 ## 주제선정 배경
-- 전자책 시장 성장률
+### 전자책 시장 성장률
 <img width="291" alt="image" src="https://user-images.githubusercontent.com/48540791/177830301-1aacf1c5-e652-489b-b836-8b6379c33136.png">
 출처 : https://mcst.go.kr/kor/s_notice/press/pressView.jsp?pSeq=12597
-- 전자책을 읽는 매체
+
+### 전자책을 읽는 매체
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/48540791/177830361-7f07f784-5605-4bc5-aea7-498b76ce6ba2.png">
 출처 : https://www.kocca.kr/knowledge/publication/focus/__icsFiles/afieldfile/2012/10/19/4BRfDylIFv47.pdf
 
