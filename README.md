@@ -20,22 +20,27 @@
 
 ## 기술 설명
 < 구성 요소 >
-Database
-: 데이터베이스 홀더를 포함, SQLite DB에 접근할 수 있는 엑세스 포인트를 제공
-2) Entity 
-: 데이터베이스의 테이블
-3) DAO(Data Access Objects)
-: 데이터베이스에 접속하기 위한 메서드 
+#### Database
+- 데이터베이스 홀더를 포함, SQLite DB에 접근할 수 있는 엑세스 포인트를 제공
+
+#### Entity 
+- 데이터베이스의 테이블
+
+#### DAO(Data Access Objects)
+- 데이터베이스에 접속하기 위한 메서드 
 ( Insert, Query, Update, Delete )
 <img width="312" alt="image" src="https://user-images.githubusercontent.com/48540791/177830982-1f0ad334-d846-490d-a0dc-d60bd98f284b.png">
 
 ### RoomDB사용 
 **Entity 어노테이션으로 Data Class 선언**
+
 <img width="174" alt="image" src="https://user-images.githubusercontent.com/48540791/177831084-800c27e2-b57c-45ba-87df-c3ab91590bda.png">
+
 ![image](https://user-images.githubusercontent.com/48540791/177831098-112a974b-5b8c-4b9a-b917-fa01e9c8596e.png)
 
 **DAO ( Data Access Objects ) 객체 선언**
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/48540791/177831222-11e8c2b4-420d-4327-85ae-3a6147ef0259.png">
+
 - Data access에 사용할 메서드 ( Insert, Query, Update, Delete) 선언
 - Dao 객체는 Interface로 선언
 - @Dao 어노테이션 사용
@@ -43,6 +48,7 @@ Database
 
 **데이터베이스 생성**
 <img width="425" alt="image" src="https://user-images.githubusercontent.com/48540791/177831348-705780f1-bf3f-48b3-b7cd-d51c685cd763.png">
+
 - RoomDatabase()를 상속한 abstract 클래스로 선언
 - @Database 어노테이션 추가
 - Entities()를 사용하여 DB에서 사용할 Entity를 가져오고
